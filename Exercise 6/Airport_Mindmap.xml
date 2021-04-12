@@ -1,1 +1,58 @@
-<mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/></root></mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2021-04-12T12:21:57.368Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.5.10" etag="OTBy1UxhdZ84cMPj95Vt" type="github">
+  <diagram id="vyGlfRNPHbAWhNarNe3V" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j3LnjtZHwaKq0C2j1n1s-1" value="Airline company" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j3LnjtZHwaKq0C2j1n1s-2" value="Flights" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j3LnjtZHwaKq0C2j1n1s-3" value="Planes" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j3LnjtZHwaKq0C2j1n1s-4" value="Airports" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j3LnjtZHwaKq0C2j1n1s-7" value="Flight number" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j3LnjtZHwaKq0C2j1n1s-8" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="j3LnjtZHwaKq0C2j1n1s-2" target="j3LnjtZHwaKq0C2j1n1s-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j3LnjtZHwaKq0C2j1n1s-9" value="Seats" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j3LnjtZHwaKq0C2j1n1s-10" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="j3LnjtZHwaKq0C2j1n1s-3" target="j3LnjtZHwaKq0C2j1n1s-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="168" y="468" as="sourcePoint" />
+            <mxPoint x="110" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j3LnjtZHwaKq0C2j1n1s-11" value="Airport Identifier&lt;br&gt;VIE, LON" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j3LnjtZHwaKq0C2j1n1s-12" value="Fleet" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j3LnjtZHwaKq0C2j1n1s-13" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.88;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="j3LnjtZHwaKq0C2j1n1s-3" target="j3LnjtZHwaKq0C2j1n1s-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="296" as="sourcePoint" />
+            <mxPoint x="400" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j3LnjtZHwaKq0C2j1n1s-14" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="j3LnjtZHwaKq0C2j1n1s-4" target="j3LnjtZHwaKq0C2j1n1s-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
